@@ -1,0 +1,19 @@
+<aura:component controller="PSRecordPhotoController" implements="force:appHostable,forceCommunity:availableForAllPageTypes,flexipage:availableForAllPageTypes,force:hasRecordId">
+
+  <aura:attribute name="contentId" type="String"  />
+  <aura:attribute name="field" type="String"  />
+  <aura:attribute name="filename" type="String" />
+  <aura:attribute name="defaultURL" type="String" default="/resource/no_image_found" />
+
+  <aura:attribute name="imageURL" type="String" />
+
+  <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+  <div class="container">
+      <img aura:id="image" src="{!v.imageURL}" />
+    <aura:if isTrue="{!v.imageUrl.length == 0}">
+      Specify one attribute to access photo.
+    </aura:if>
+  </div>
+
+</aura:component>

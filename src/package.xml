@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>PSRecordPhotoController</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>PSRecordPhoto</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>no_image_found</members>
+        <name>StaticResource</name>
+    </types>
+    <version>39.0</version>
+</Package>
