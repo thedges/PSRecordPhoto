@@ -1,6 +1,6 @@
 # PSRecordPhoto
 
-The purpose of the component is to show a single photo that is related to the record that the component is placed on. This component was developed mainly because Salesforce new attachment storage uses the new ContentDocument and ContentVersion objects which can make it tough to auto-generate a URL to a photo image that you may want to show on a record. My specific use case was to show a driver license photo on a "person" record.
+The purpose of the component is to show a single photo that is attached to the record that the component is placed on. This component was developed mainly because Salesforce new attachment storage uses the new ContentDocument and ContentVersion objects which can make it tough to auto-generate a URL to a photo image that you may want to show on a record. My specific use case was to show a driver license photo on a "person" record.
 
 The following is example of using the component on a record.
 
