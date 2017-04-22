@@ -4,7 +4,7 @@ The purpose of the component is to show a single photo that is related to the re
 
 The following is example of using the component on a record.
 
-![alt text](https://github.com/thedges/PSObjectMap/blob/master/PSObjectMap.png "Sample Image")
+![alt text](https://github.com/thedges/PSObjectMap/blob/master/screenshot1.png "Sample Image")
 
 <b>Dependency:</b> Install the [PSCommon](https://github.com/thedges/PSCommon) package first
 
