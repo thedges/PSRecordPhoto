@@ -13,7 +13,7 @@ The following is example of using the component on a record.
   - <b>contentId</b> - the id of a Content Document to show
   - <b>field</b> - the field API name on the object that returns a Content Document ID to show on the record. Use this in formula field or populate some hidden field if you have apex code that loads photo to a record.
   - <b>filename</b> - the filename of photo attached to the record that you want to show. The latest version of the document found with that filename will be shown.
-  - <b>defaultURL</b> - the default URL to an image file that will show if the component cannot find an image based on parameters found
+  - <b>defaultURL</b> - the default URL to an image file that will show if the component cannot find an image based on the provided parameters
  
 <a href="https://githubsfdeploy.herokuapp.com">
   <img alt="Deploy to Salesforce"
