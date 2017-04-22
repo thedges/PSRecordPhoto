@@ -32,6 +32,7 @@
             if (resp.status === 'SUCCESS') {
                 component.set('v.imageURL', resp.data);
             } else {
+                component.set('v.imageURL', resp.data);
             }
         });
         // Enqueue the action
