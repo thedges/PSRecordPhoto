@@ -1,9 +1,8 @@
-<aura:component controller="PSRecordPhotoController" implements="force:appHostable,forceCommunity:availableForAllPageTypes,flexipage:availableForAllPageTypes,force:hasRecordId">
+<aura:component controller="PSRecordPhotoController" implements="force:appHostable,forceCommunity:availableForAllPageTypes,flexipage:availableForAllPageTypes,force:hasRecordId" >
 
-  <aura:attribute name="contentId" type="String"  />
-  <aura:attribute name="field" type="String"  />
-  <aura:attribute name="filename" type="String" />
-  <aura:attribute name="defaultURL" type="String" default="/resource/no_image_found" />
+  <aura:attribute name="source" type="String"  />
+  <aura:attribute name="sourceValue" type="String"  />
+  <aura:attribute name="defaultURL" type="String" default="/resource/no_image_found"/>
 
   <aura:attribute name="imageURL" type="String" />
 

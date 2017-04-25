@@ -1,6 +1,5 @@
 <design:component label="Record Photo">
-	<design:attribute name="contentId" label="Content Document ID" Description="The photo's content document id"/>
-    <design:attribute name="field" label="Object Field API Name" Description="Field on sobject that refers to the photo's content document id."/>
-    <design:attribute name="filename" label="Record Attachment Filename" Description="The name of the file to pull the latest content version."/>
+    <design:attribute name="source" label="Photo Source" Description="The source for the photo" datasource="Content ID, SObject Field, Attached Filename"/>
+	<design:attribute name="sourceValue" label="Photo Source Value" Description="The source value: content id, sobject field API name, or filename"/>
     <design:attribute name="defaultURL" label="Default Content Document Id" Description="This document will be shown if no others are found."/>
 </design:component>
