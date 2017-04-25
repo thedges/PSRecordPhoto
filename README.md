@@ -10,9 +10,8 @@ The following is example of using the component on a record.
 
 * This component can be dropped on any sobject
 * The component configuration fields are (only provide one value for either contentId, field or filename):
-  - <b>contentId</b> - the id of a Content Document to show
-  - <b>field</b> - the field API name on the object that returns a Content Document ID to show on the record. Use this in formula field or populate some hidden field if you have apex code that loads photo to a record.
-  - <b>filename</b> - the filename of photo attached to the record that you want to show. The latest version of the document found with that filename will be shown.
+  - <b>Photo Source</b> - 3 options: 'Content ID' where you select the content document id; 'SObject Field' where a field (typcially formula field) on the object will specify the content document id; and 'Attached Filename' where you provide a filename which the component will display latest version of that file
+  - <b>Photo Source Value</b> - the photo source value depending on the choice selected: a content id, an SObject field API name, or a filename string
   - <b>defaultURL</b> - the default URL to an image file that will show if the component cannot find an image based on the provided parameters
  
 <a href="https://githubsfdeploy.herokuapp.com">
