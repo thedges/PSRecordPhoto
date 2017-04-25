@@ -12,7 +12,7 @@ The following is example of using the component on a record.
 * The component configuration fields are (only provide one value for either contentId, field or filename):
   - <b>Photo Source</b> - 3 options: 'Content ID' where you select the content document id; 'SObject Field' where a field (typcially formula field) on the object will specify the content document id; and 'Attached Filename' where you provide a filename which the component will display latest version of that file
   - <b>Photo Source Value</b> - the photo source value depending on the choice selected: a content id, an SObject field API name, or a filename string
-  - <b>defaultURL</b> - the default URL to an image file that will show if the component cannot find an image based on the provided parameters
+  - <b>Default Content Document URL</b> - the default URL to an image file that will show if the component cannot find an image based on the provided parameters
  
 <a href="https://githubsfdeploy.herokuapp.com">
   <img alt="Deploy to Salesforce"
