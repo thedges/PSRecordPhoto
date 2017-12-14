@@ -6,7 +6,7 @@ The following is example of using the component on a record.
 
 ![alt text](https://github.com/thedges/PSRecordPhoto/blob/master/screenshot1.png "Sample Image")
 
-<b>Dependency:</b> Install the [PSCommon](https://github.com/thedges/PSCommon) package first
+<b>Dependency:</b> Install the [Lightning Strike](https://github.com/thedges/Lightning-Strike) and  [PSCommon](https://github.com/thedges/PSCommon) packages first
 
 * This component can be dropped on any sobject
 * The component configuration fields are (only provide one value for either contentId, field or filename):
