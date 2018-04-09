@@ -10,7 +10,7 @@
 
   <div class="container">
       <img aura:id="image" src="{!v.imageURL}" />
-    <aura:if isTrue="{!v.imageUrl.length == 0}">
+    <aura:if isTrue="{!v.imageURL.length == 0}">
       Specify one attribute to access photo.
     </aura:if>
   </div>
