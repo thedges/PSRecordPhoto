@@ -8,8 +8,8 @@
 
   <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
 
-  <div class="container">
-      <img aura:id="image" src="{!v.imageURL}" />
+  <div class="slds-card">
+      <img class="center" aura:id="image" src="{!v.imageURL}" height="100px" style="border-radius: 3px"/>
     <aura:if isTrue="{!v.imageURL.length == 0}">
       Specify one attribute to access photo.
     </aura:if>
