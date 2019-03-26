@@ -1,4 +1,6 @@
 # PSRecordPhoto
+THIS SOFTWARE IS COVERED BY [THIS DISCLAIMER](https://raw.githubusercontent.com/thedges/Disclaimer/master/disclaimer.txt).
+
 Demo component to show a related photo attachment on the record. Primary use cases could be to show certification, driver license picture, or asset image.
 
 The component has following configuration options:
