@@ -12,7 +12,8 @@ The component has following configuration options:
      * SObject Field - the SObject field api name. Example would be "driver_lic_photo__c"
      * Content ID - This should be the ID field from the ContentDocument table. This content id values should start with '069'.
      * Attached Filename - Do not include file extension. So a file named "driver-license.jpg", you should just specific "driver-license".
-  3. <b>Default Content Document URL</b> - a URL to an image to show as default image if configuration doesn't result in a found image. Typically would use a static resource related URL of format "/resource/<static-resource-name>".
+  3. <b>Photo Height</b> - optional integer value to set image height (in pixels_
+  4. <b>Default Content Document URL</b> - a URL to an image to show as default image if configuration doesn't result in a found image. Typically would use a static resource related URL of format "/resource/<static-resource-name>".
 
 <a href="https://githubsfdeploy.herokuapp.com">
   <img alt="Deploy to Salesforce"
