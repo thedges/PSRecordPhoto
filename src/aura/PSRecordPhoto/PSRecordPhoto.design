@@ -1,5 +1,6 @@
 <design:component label="PSRecordPhoto">
     <design:attribute name="source" label="Photo Source" Description="The source for the photo" datasource="Content ID, SObject Field, Attached Filename"/>
 	<design:attribute name="sourceValue" label="Photo Source Value" Description="The source value: content id, sobject field API name, or filename"/>
+    <design:attribute name="height" label="Photo Height" Description="Optional: Set height in pixels"/>
     <design:attribute name="defaultURL" label="Default Content Document URL" Description="This document URL will be shown if no others are found."/>
 </design:component>

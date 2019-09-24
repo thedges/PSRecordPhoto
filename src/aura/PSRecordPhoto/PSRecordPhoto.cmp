@@ -1,15 +1,17 @@
-<aura:component controller="PSRecordPhotoController" implements="force:appHostable,forceCommunity:availableForAllPageTypes,flexipage:availableForAllPageTypes,force:hasRecordId" >
+<aura:component controller="PSRecordPhotoController"
+  implements="force:appHostable,forceCommunity:availableForAllPageTypes,flexipage:availableForAllPageTypes,force:hasRecordId">
 
-  <aura:attribute name="source" type="String"  />
-  <aura:attribute name="sourceValue" type="String"  />
-  <aura:attribute name="defaultURL" type="String" default="/resource/no_image_found"/>
+  <aura:attribute name="source" type="String" />
+  <aura:attribute name="sourceValue" type="String" />
+  <aura:attribute name="height" type="Integer" />
+  <aura:attribute name="defaultURL" type="String" default="/resource/no_image_found" />
 
   <aura:attribute name="imageURL" type="String" />
 
   <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
 
   <div class="slds-card">
-      <img class="center" aura:id="image" src="{!v.imageURL}" />
+    <img class="center" aura:id="image" src="{!v.imageURL}" style="{!v.height != null ? 'height:' + v.height + 'px !important;width: auto;' : ''}"/>
     <aura:if isTrue="{!v.imageURL.length == 0}">
       Specify one attribute to access photo.
     </aura:if>
